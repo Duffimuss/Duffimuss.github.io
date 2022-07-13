@@ -1,9 +1,10 @@
+import Intro from "./components/Intro.jsx";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h3>I love you Beth!</h3>
+      <Intro />
     </div>
   );
 }
