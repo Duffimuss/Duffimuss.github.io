@@ -38,6 +38,65 @@ const Services = () => {
             </li>
           </ul>
         </article>
+        {/* end of ui ux*/}
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Web Design</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+          </ul>
+        </article>
+        {/*End of Web Design */}
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Scripting</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit, amet.</p>
+            </li>
+          </ul>
+        </article>
+        {/*End of Scripting */}
       </div>
     </section>
   )
