@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/flower.jpg'
+import ME from '../../assets/profile.jpg'
 import {BiAward} from 'react-icons/bi'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -33,14 +33,14 @@ const About = () => {
           <article className="about__card">
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <small>10+ Completed</small>
           </article>
         </div>
 
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-          Asperiores, harum tenetur doloremque commodi ratione nesciunt cupiditate. 
-          Iusto tempore doloribus in quae aliquam! Ex laudantium nulla vero inventore suscipit doloremque voluptatum?
+          Hey there, I'm an accredited Software Engineer with a Bachelor's in Computer Science Software Engineering from Radford University.
+          I am from Virginia, but last year I moved to Raleigh, NC. I have many skills that you can view by clicking the html tag button. 
+          I spend all my time coding and improving my skillset. I am currently working with monetizing api's and web development. 
         </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
