@@ -6,7 +6,7 @@
 
 .about__me {
     width: 100%;
-    aspect-ratio: 1.131/1;
+    aspect-ratio: 1.18/1;
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
@@ -16,7 +16,7 @@
     );
     display: grid;
     place-items: center;
-
+    
 }
 
 .about__me-image {

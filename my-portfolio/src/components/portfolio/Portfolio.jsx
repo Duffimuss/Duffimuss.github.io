@@ -1,48 +1,53 @@
 import React from 'react'
 import './portfolio.css'
-import BG from '../../assets/mouthart.jpg'
+import BG from '../../assets/code2.png'
+import BG2 from '../../assets/code3.png'
+import BG3 from '../../assets/code4.png'
+import BG4 from '../../assets/code5.png'
+import BG5 from '../../assets/code.png'
+import BG6 from '../../assets/code6.png'
 
 const data = [
 {
   id: 1,
   image: BG,
-  title: 'project title',
-  github: 'https://github.com/Duffimuss',
+  title: 'Reverse Polish Notation Calculator (Ada)',
+  github: 'https://github.com/Duffimuss/Reverse-Polish-Notation-Calculator',
   demo: 'https://github.com/Duffimuss'
 },
 {
   id: 2,
-  image: BG,
-  title: 'project title',
-  github: 'https://github.com/Duffimuss',
+  image: BG2,
+  title: 'Cellular Automata (Java)',
+  github: 'https://github.com/Duffimuss/Cellular-Automata',
   demo: 'https://github.com/Duffimuss'
 },
 {
   id: 3,
-  image: BG,
-  title: 'project title',
-  github: 'https://github.com/Duffimuss',
+  image: BG3,
+  title: 'Palindrome Finder (Ada)',
+  github: 'https://github.com/Duffimuss/Palindrome-Finder',
   demo: 'https://github.com/Duffimuss'
 },
 {
   id: 4,
-  image: BG,
+  image: BG4,
   title: 'project title',
   github: 'https://github.com/Duffimuss',
   demo: 'https://github.com/Duffimuss'
 },
 {
   id: 5,
-  image: BG,
-  title: 'project title',
-  github: 'https://github.com/Duffimuss',
+  image: BG5,
+  title: 'The Paper Boy (Javascript/React)',
+  github: 'https://github.com/Duffimuss/my-react-chat-app',
   demo: 'https://github.com/Duffimuss'
 },
 {
   id: 6,
-  image: BG,
-  title: 'project title',
-  github: 'https://github.com/Duffimuss',
+  image: BG6,
+  title: 'Foodscraps (python)',
+  github: 'https://github.com/Duffimuss/reddit-food-scraper',
   demo: 'https://github.com/Duffimuss'
 },
 
