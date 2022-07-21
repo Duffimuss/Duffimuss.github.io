@@ -24,7 +24,7 @@ const data = [
 },
 {
   id: 3,
-  image: BG3,
+  image: BG6,
   title: 'Palindrome Finder (Ada)',
   github: 'https://github.com/Duffimuss/Palindrome-Finder',
   demo: 'https://github.com/Duffimuss'
@@ -32,8 +32,8 @@ const data = [
 {
   id: 4,
   image: BG4,
-  title: 'project title',
-  github: 'https://github.com/Duffimuss',
+  title: 'Word Count (Java',
+  github: 'https://github.com/Duffimuss/word-count',
   demo: 'https://github.com/Duffimuss'
 },
 {
@@ -45,7 +45,7 @@ const data = [
 },
 {
   id: 6,
-  image: BG6,
+  image: BG3,
   title: 'Foodscraps (python)',
   github: 'https://github.com/Duffimuss/reddit-food-scraper',
   demo: 'https://github.com/Duffimuss'
