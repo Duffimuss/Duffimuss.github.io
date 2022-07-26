@@ -27,7 +27,7 @@ const Chat = () => {
 
   return (
     <section id="chat">
-        <h1>General Chat (beta)</h1>
+        <h1>General Chat</h1>
         <SignOut />
     <div classname="container chat-container">
             {/*<h1>General Chat (beta)</h1>*/}
