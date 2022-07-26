@@ -29,11 +29,11 @@ const Chat = () => {
     <div classname="container chat-container" id="#chat">
         <header>
             <h1>General Chat (beta)</h1>
-            <SignOut />
+            {/*<SignOut />*/}
         </header>
 
         <section>
-            {user ? <ChatRoom /> : <SignIn />}
+            <ChatRoom />
         </section>
     </div>
   );
