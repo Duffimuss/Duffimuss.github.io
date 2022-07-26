@@ -9,6 +9,7 @@ import Portfolio from './components/portfolio/Portfolio.jsx'
 import Testimonials from './components/testimonials/Testimonials.jsx'
 import Contact from './components/contact/Contact.jsx'
 import Footer from './components/footer/Footer.jsx'
+import Chat from './components/chat/Chat.jsx'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Services />
         <Portfolio />
         {/*<Testimonials />*/}
+        <Chat />
         <Contact />
         <Footer />
     </>
