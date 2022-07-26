@@ -42,7 +42,7 @@ const Chat = () => {
 function SignIn() {
     const signInWithGoogle = () => {
         const provider = new firebase.auth.GoogleAuthProvider();
-        auth.signInWithGoogle(provider);
+        auth.signInAnonymously(provider);
     }
 
     return (
