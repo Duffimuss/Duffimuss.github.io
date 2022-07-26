@@ -29,11 +29,11 @@ const Chat = () => {
     <div classname="container chat-container" id="#chat">
         <header>
             <h1>General Chat (beta)</h1>
-            {/*<SignOut />*/}
+            <SignOut />
         </header>
 
         <section>
-            <ChatRoom />
+            {user ? <ChatRoom /> : <SignIn />}
         </section>
     </div>
   );
@@ -42,7 +42,7 @@ const Chat = () => {
 function SignIn() {
     const signInWithGoogle = () => {
         const provider = new firebase.auth.GoogleAuthProvider();
-        auth.signInAnonymously(provider);
+        auth.signInWithPopup(provider);
     }
 
     return (
@@ -90,7 +90,7 @@ function ChatRoom() {
         <>
             <main>
                 {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
-                <div ref={dummy}></div>
+                <div className="dummy" ref={dummy}></div>
             </main>
 
             <form className="chat__form-chat" onSubmit={sendMessage} >
