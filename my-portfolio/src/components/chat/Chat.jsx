@@ -26,16 +26,18 @@ const Chat = () => {
     const [user] = useAuthState(auth);
 
   return (
-    <div classname="container chat-container" id="#chat">
-        <header>
-            <h1>General Chat (beta)</h1>
-            <SignOut />
-        </header>
+    <section id="chat">
+        <h1>General Chat (beta)</h1>
+        <SignOut />
+    <div classname="container chat-container">
+            {/*<h1>General Chat (beta)</h1>*/}
+            {/*<SignOut />*/}
 
         <section>
             {user ? <ChatRoom /> : <SignIn />}
         </section>
     </div>
+    </section>
   );
 }
 
